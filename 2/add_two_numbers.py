@@ -32,10 +32,10 @@ class Solution(object):
             i +=1
 
         c = str(a + b)
-        head = ListNode(c[-1])
+        head = ListNode(int(c[-1]))
         node = head
         for i in c[-2::-1]:
-            next_node = ListNode(i)
+            next_node = ListNode(int(i))
             node.next = next_node
             node = next_node
 
