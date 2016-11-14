@@ -15,6 +15,7 @@ class Solution(object):
         :type l1: ListNode
         :type l2: ListNode
         :rtype: ListNode
+        求出链表表示的数字,直接相加,再转为链表表示
         """
         a = 0
         b = 0
