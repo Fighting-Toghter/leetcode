@@ -8,7 +8,7 @@ class Solution(object):
         """
         :type s: str
         :rtype: int
-        效率很低.
+        效率很低.遍历所有可能情况.
         """
         length = len(s)
         if length == 0:
@@ -30,6 +30,7 @@ class Solution(object):
         """
         :type s: str
         :rtype: int
+        每次搜索delta长度的字符串.保证下次delta迭代大于等于上次
         """
         length = len(s)
         if length == 0:
